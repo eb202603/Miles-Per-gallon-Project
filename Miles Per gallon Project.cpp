@@ -10,10 +10,15 @@ using namespace std;
 
 int main()
 {
-	double milesDriven = 375;
-	double gallonsUsed = 15;
+	double milesDriven;
+	double gallonsUsed;
+	cout << " please Enter miles dervin";
+		cin >> milesDriven;
+	cout << " please Enter gallon used ";
+	 cin >> gallonsUsed;
 
 	double MPG = milesDriven / gallonsUsed;
+
 	cout << "miles per gallon " << MPG << endl; 
 	cout << "milesDriven" << milesDriven << endl;
 	cout << " gallonsUsed" << gallonsUsed << endl;
